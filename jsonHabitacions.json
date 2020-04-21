@@ -1,0 +1,743 @@
+[
+    {
+        "Id": 0,
+        "nombre": "Majorica",
+        "aperturaHotel": "1993-10-24",
+        "estrellas": "5",
+        "contacto": {
+            "localidadHotel": "Mallorca",
+            "codigoPostal": "07035",
+            "direccionHotel": "C/Ayer",
+            "numeroDireccion": "34",
+            "telContacto": "32124324",
+            "emailContacto": "majoricahotel@hotels.com"
+        },
+        "servicios": {
+            "precioComedorHotel": "30",
+            "checkMascotas": true,
+            "checkPerros": true,
+            "checkGatos": false,
+            "checkGimnasio": true,
+            "checkSpa": true,
+            "checkWifi": false
+        },
+        "habitaciones": [{
+            "Standard": {
+                "id": 0,
+                "nombre": "Standard",
+                "checkVistaMar": false,
+                "checkCajaSeguridad": false,
+                "checkCafetera": true,
+                "checkHydroMasaje": false,
+                "minibarGratis": false,
+                "terraza": false,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+                "Preu Net": 140,
+                "Impostos": 21,
+                "Comissio": 10
+            },
+            "Upper": {
+                "id": 1,
+                "nombre": "Upper",
+                "checkVistaMar": true,
+                "checkCajaSeguridad": true,
+                "checkCafetera": true,
+                "checkHydroMasaje": false,
+                "minibarGratis": false,
+                "terraza": true,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+                    "Preu Net": 190,
+                    "Impostos": 21,
+                    "Comissio": 10
+            },
+            "Deluxe": {
+                "id": 2,
+                "nombre": "Deluxe",
+                "checkVistaMar": true,
+                "checkCajaSeguridad": true,
+                "checkCafetera": true,
+                "checkHydroMasaje": true,
+                "minibarGratis": true,
+                "terraza": true,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+            "Preu Net": 300,
+            "Impostos": 21,
+            "Comissio": 10
+            }
+        }]
+    },
+    {
+        "Id": 2,
+        "nombre": "Trip",
+        "aperturaHotel": "1995-11-24",
+        "estrellas": "4",
+        "contacto": {
+            "localidadHotel": "Mallorca",
+            "codigoPostal": "05698",
+            "direccionHotel": "C/Hoy",
+            "numeroDireccion": "44",
+            "telContacto": "9683598536",
+            "emailContacto": "triphotels@hotels.com"
+        },
+        "servicios": {
+            "precioComedorHotel": "40",
+            "checkMascotas": true,
+            "checkPerros": false,
+            "checkGatos": true,
+            "checkGimnasio": true,
+            "checkSpa": true,
+            "checkWifi": false
+        },
+        "habitaciones": [{
+            "Standard": {
+                "id": 0,
+                "nombre": "Standard",
+                "checkVistaMar": false,
+                "checkCajaSeguridad": false,
+                "checkCafetera": true,
+                "checkHydroMasaje": false,
+                "minibarGratis": false,
+                "terraza": false,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+                "Preu Net": 140,
+                "Impostos": 21,
+                "Comissio": 10
+            },
+            "Upper": {
+                "id": 1,
+                "nombre": "Upper",
+                "checkVistaMar": true,
+                "checkCajaSeguridad": true,
+                "checkCafetera": true,
+                "checkHydroMasaje": false,
+                "minibarGratis": false,
+                "terraza": true,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+                    "Preu Net": 190,
+                    "Impostos": 21,
+                    "Comissio": 10
+            },
+            "Deluxe": {
+                "id": 2,
+                "nombre": "Deluxe",
+                "checkVistaMar": true,
+                "checkCajaSeguridad": true,
+                "checkCafetera": true,
+                "checkHydroMasaje": true,
+                "minibarGratis": true,
+                "terraza": true,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+            "Preu Net": 300,
+            "Impostos": 21,
+            "Comissio": 10
+            }
+        }]
+    },
+    {
+        "Id": 3,
+        "nombre": "Voyage",
+        "aperturaHotel": "1999-05-17",
+        "estrellas": "2",
+        "contacto": {
+            "localidadHotel": "Menorca",
+            "codigoPostal": "07069",
+            "direccionHotel": "C/Mañana",
+            "numeroDireccion": "345",
+            "telContacto": "79534564",
+            "emailContacto": "voyagehotel@hotels.com"
+        },
+        "servicios": {
+            "precioComedorHotel": "35",
+            "checkMascotas": false,
+            "checkPerros": false,
+            "checkGatos": true,
+            "checkGimnasio": true,
+            "checkSpa": false,
+            "checkWifi": true
+        },
+        "habitaciones": [{
+            "Standard": {
+                "id": 0,
+                "nombre": "Standard",
+                "checkVistaMar": false,
+                "checkCajaSeguridad": false,
+                "checkCafetera": true,
+                "checkHydroMasaje": false,
+                "minibarGratis": false,
+                "terraza": false,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+                "Preu Net": 140,
+                "Impostos": 21,
+                "Comissio": 10
+            },
+            "Upper": {
+                "id": 1,
+                "nombre": "Upper",
+                "checkVistaMar": true,
+                "checkCajaSeguridad": true,
+                "checkCafetera": true,
+                "checkHydroMasaje": false,
+                "minibarGratis": false,
+                "terraza": true,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+                    "Preu Net": 190,
+                    "Impostos": 21,
+                    "Comissio": 10
+            },
+            "Deluxe": {
+                "id": 2,
+                "nombre": "Deluxe",
+                "checkVistaMar": true,
+                "checkCajaSeguridad": true,
+                "checkCafetera": true,
+                "checkHydroMasaje": true,
+                "minibarGratis": true,
+                "terraza": true,
+                "agregadores":[
+                    {
+                        "id":0,
+                        "nom":"Booking",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 140,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 200,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 300,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Vueling",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 150,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 320,
+                                "temporada": "alta"
+                            }]
+                    },
+                    {
+                        "id":0,
+                        "nom":"Atrapalo",
+                        "tarifes":[
+                            {
+                                "id": 0,
+                                "preu": 120,
+                                "temporada": "baixa"
+                            },
+                            {
+                                "id": 1,
+                                "preu": 210,
+                                "temporada": "mitja"
+                            },
+                            {
+                                "id": 2,
+                                "preu": 350,
+                                "temporada": "alta"
+                            }]
+                    }],
+            "Preu Net": 300,
+            "Impostos": 21,
+            "Comissio": 10
+            }
+        }]
+    }
+]
